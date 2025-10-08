@@ -10,12 +10,12 @@ model = keras.models.load_model('mnist_model.h5')
 
 @app.route ( '/predict' , methods =[ 'POST' ])
 def predict () :
-    data = request . json
+    data = request.json
     # Vérification des données
     if 'image' not in data :
         return jsonify ({ 'error': 'No image provided' }) , 400
 
-    image_data = np . array ( data [ 'image' ])
+    image_data = np.array ( data [ 'image' ])
     # Assurez - vous que l ’ image est au bon format (1 , 784) et n o r m a l i s e
     image_data = image_data.reshape (1 , 784)
     image_data = image_data.astype ("float32") / 255.0
