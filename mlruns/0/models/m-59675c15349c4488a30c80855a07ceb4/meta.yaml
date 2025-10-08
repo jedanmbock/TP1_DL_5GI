@@ -1,0 +1,10 @@
+artifact_location: file:///C:/Users/JD/Documents/5GI_presentiel/Semestre1/Machine%20Learning%20avanc%C3%A9/TPs/TP1/mlruns/0/models/m-59675c15349c4488a30c80855a07ceb4/artifacts
+creation_timestamp: 1759906893092
+experiment_id: '0'
+last_updated_timestamp: 1759907995081
+model_id: m-59675c15349c4488a30c80855a07ceb4
+model_type: null
+name: mnist - model
+source_run_id: 4dae0208e74641468b072de05842fc43
+status: 2
+status_message: null

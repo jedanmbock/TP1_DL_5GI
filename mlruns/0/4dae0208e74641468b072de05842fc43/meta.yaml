@@ -1,0 +1,14 @@
+artifact_uri: file:///C:/Users/JD/Documents/5GI_presentiel/Semestre1/Machine%20Learning%20avanc%C3%A9/TPs/TP1/mlruns/0/4dae0208e74641468b072de05842fc43/artifacts
+end_time: 1759907995734
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 4dae0208e74641468b072de05842fc43
+run_name: crawling-chimp-246
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1759906650695
+status: 3
+tags: []
+user_id: JD
